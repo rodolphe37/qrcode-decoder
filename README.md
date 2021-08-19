@@ -1,3 +1,5 @@
+![Demo-picture](./demo-pictures/picture1.png "Demo")
+
 # Comment utiliser cette app
 
 Clonez ou télécharger le repo, rendez vous dans les dossiers "qrcode-app" et "decode-qr puis faite :
@@ -36,6 +38,8 @@ Pour finir, rendez-vous à présent dans le dossier "decode-qr" et faite :
 ### `node decode.js`
 
 dans un autre onglet de terminal!
+
+![Demo-decrypt-picture](./demo-pictures/picture2.png "Demo-decrypt")
 
 
 ## Cette application n'a en aucun cas était faite pour tenter de contorner la loi, de quelques manière que ce soit...
