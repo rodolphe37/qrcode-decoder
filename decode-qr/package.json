@@ -1,0 +1,19 @@
+{
+  "name": "decode-qr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "decode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "base45": "^3.0.0",
+    "cbor": "^8.0.0",
+    "image-decode": "^1.2.2",
+    "jpeg-js": "^0.4.3",
+    "jsqr": "^1.4.0",
+    "pako": "^2.0.4"
+  }
+}
