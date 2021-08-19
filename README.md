@@ -2,11 +2,7 @@
 
 Clonez ou télécharger le repo, rendez vous dans les dossiers "qrcode-app" et "decode-qr puis faite :
 
-### `yarn`
-
-ou
-
-### `npm i`
+ `yarn` ou `npm i`
 
 afin d'installer les dépendances!
 
@@ -14,7 +10,7 @@ afin d'installer les dépendances!
 
 Voous pouvez démarrer l'app react avec la procedure habituelle, en faisant
 
-### `yarn start`
+ `yarn start` ou `npm start`
 
 dans le dossier "qrcode-app".
 
