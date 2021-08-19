@@ -1,11 +1,14 @@
 
-***Voici une courte démonstration vidéo de l'utilisation de l'app***
+***🇫🇷 Voici une courte démonstration vidéo de l'utilisation de l'app***
 
-## cliquez sur l'image pour voir la vidéo!
+***🇬🇧 Here is a short video demonstration of how to use the app***
+
+## 🇫🇷 cliquez sur l'image pour voir la vidéo!
+## 🇬🇧 click on the image to see the video!
 >[![embed url](/demo-pictures/picture1.png)](https://youtu.be/ntUTsSsKl7g)
 
 
-# Comment utiliser cette app
+# 🇫🇷 Comment utiliser cette app
 
 Clonez ou télécharger le repo, rendez vous dans les dossiers "qrcode-app" et "decode-qr puis faite :
 
@@ -13,7 +16,15 @@ Clonez ou télécharger le repo, rendez vous dans les dossiers "qrcode-app" et "
 
 afin d'installer les dépendances!
 
-## deuxième étape :
+# 🇬🇧 How to use this app
+
+Clone or download the repo, go to the "qrcode-app" and "decode-qr" folders and do :
+
+ `yarn` or `npm i`
+
+to install the dependencies!
+
+## 🇫🇷 deuxième étape :
 
 Voous pouvez démarrer l'app react avec la procedure habituelle, en faisant
 
@@ -24,7 +35,18 @@ dans le dossier "qrcode-app".
 L'application démarre sur le port 3000 habituel.
 [http://localhost:3000](http://localhost:3000)
 
-## Scanne du qrcode :
+## 🇬🇧 second step :
+
+You can start the react app with the usual procedure, by doing
+
+ `yarn start` or `npm start`.
+
+in the "qrcode-app" folder.
+
+The application starts on the usual port 3000.
+[http://localhost:3000](http://localhost:3000)
+
+## 🇫🇷 Scanne du qrcode :
 
 Vous pouvez scanner votre qr-code,
 
@@ -44,15 +66,42 @@ Pour finir, rendez-vous à présent dans le dossier "decode-qr" et faite :
 
 dans un autre onglet de terminal!
 
+## 🇬🇧 Scanning the qrcode:
+
+You can scan your qr-code,
+
+once this is done, you have to copy the encrypted information to generate a qr-code.
+
+By clicking on the freshly created image the download starts...
+
+Then,
+You have to copy the image in the folder "qrcodes" present in the folder "decode-qr". (if you can run bash on your computer, you can modify the copyPNG.sh script to work with your folder tree, otherwise copy it manually)!
+
+The next step is to convert the png image to jpg for easy decryption.
+If you can run shell script on your computer, you have a script "convert.sh" that will do this very well (In the console, at the root of the folder "qrcodes" just make ./convert.sh) otherwise use the gimp software for example.
+
+To finish, go to the "decode-qr" folder and do :
+
+### `node decode.js`
+
+in another terminal tab!
+
 ![Demo-decrypt-picture](./demo-pictures/picture2.png "Demo-decrypt")
 
 
-## Cette application n'a en aucun cas était faite pour tenter de contourner la loi, de quelques manières que ce soit...
+## 🇫🇷 Cette application n'a en aucun cas était faite pour tenter de contourner la loi, de quelques manières que ce soit...
 
 C'est juste au titre de ma curiositée personnelle et du droit d'accès aux informations nous concernants.
 
-## Disclamer :
+## 🇬🇧 This application was in no way made to try to circumvent the law, in any way whatsoever...
+
+It's just for my personal curiosity and the right of access to information about us.
+
+## 🇫🇷 Disclamer :
 Le qr code testé ici ainsi que dans la vidéo que j'ai partagé sur linkedin est un qrcode de test présent sur le repo officiel "eu-digital-green-certificates", dont voici le lien :
+
+## 🇬🇧 Disclamer :
+The qr code tested here as well as in the video I shared on linkedin is a test qrcode present on the official repo "eu-digital-green-certificates", which here is the link :
 
 [TestData-tous-pays](https://github.com/eu-digital-green-certificates/dgc-testdata)
 
