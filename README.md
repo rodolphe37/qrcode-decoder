@@ -42,12 +42,12 @@ dans un autre onglet de terminal!
 ![Demo-decrypt-picture](./demo-pictures/picture2.png "Demo-decrypt")
 
 
-## Cette application n'a en aucun cas était faite pour tenter de contorner la loi, de quelques manière que ce soit...
+## Cette application n'a en aucun cas était faite pour tenter de contourner la loi, de quelques manières que ce soit...
 
-C'est juste au titre de ma curiositée personnelle.
+C'est juste au titre de ma curiositée personnelle et du droit d'accès aux informations nous concernants.
 
 ## Disclamer :
-Le qr code testé ici et dans la vidéo que j'ai partagé sur linkedin est un qrcode de test présent sur le repo officiel "eu-digital-green-certificates", dont voici le lien :
+Le qr code testé ici ainsi que dans la vidéo que j'ai partagé sur linkedin est un qrcode de test présent sur le repo officiel "eu-digital-green-certificates", dont voici le lien :
 
 [TestData-tous-pays](https://github.com/eu-digital-green-certificates/dgc-testdata)
 
