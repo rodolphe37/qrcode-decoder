@@ -1,4 +1,10 @@
 
+# 🇫🇷 Application pour décrypter le QRcode du greenPass europe.
+A titre d'information seulement !
+
+# 🇬🇧 App for decrypt greenPass europe QRcode.
+Just for information purpose only!
+
 ***🇫🇷 Voici une courte démonstration vidéo de l'utilisation de l'app***
 
 ***🇬🇧 Here is a short video demonstration of how to use the app***
@@ -99,6 +105,10 @@ It's just for my personal curiosity and the right of access to information about
 
 ## 🇫🇷 Disclamer :
 Le qr code testé ici ainsi que dans la vidéo que j'ai partagé sur linkedin est un qrcode de test présent sur le repo officiel "eu-digital-green-certificates", dont voici le lien :
+
+[TestData-tous-pays](https://github.com/eu-digital-green-certificates/dgc-testdata)
+
+[FR](https://github.com/eu-digital-green-certificates/dgc-testdata/tree/main/FR)
 
 ## 🇬🇧 Disclamer :
 The qr code tested here as well as in the video I shared on linkedin is a test qrcode present on the official repo "eu-digital-green-certificates", which here is the link :
