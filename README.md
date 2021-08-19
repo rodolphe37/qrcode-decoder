@@ -13,7 +13,7 @@ Just for information purpose only!
 
 ## 🇫🇷 cliquez sur l'image pour voir la vidéo!
 ## 🇬🇧 click on the image to see the video!
->[![embed url](/demo-pictures/picture1.png)](https://youtu.be/ntUTsSsKl7g)
+[![embed url](/demo-pictures/picture1.png)](https://youtu.be/ntUTsSsKl7g)
 
 ---
 
@@ -97,6 +97,7 @@ in another terminal tab!
 
 ![Demo-decrypt-picture](./demo-pictures/picture2.png "Demo-decrypt")
 
+---
 
 ## 🇫🇷 Cette application n'a en aucun cas était faite pour tenter de contourner la loi, de quelques manières que ce soit...
 
@@ -105,6 +106,8 @@ C'est juste au titre de ma curiositée personnelle et du droit d'accès aux info
 ## 🇬🇧 This application was in no way made to try to circumvent the law, in any way whatsoever...
 
 It's just for my personal curiosity and the right of access to information about us.
+
+---
 
 ## 🇫🇷 Disclamer :
 Le qr code testé ici ainsi que dans la vidéo que j'ai partagé sur linkedin est un qrcode de test présent sur le repo officiel "eu-digital-green-certificates", dont voici le lien :
