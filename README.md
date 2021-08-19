@@ -5,6 +5,8 @@ A titre d'information seulement !
 # 🇬🇧 App for decrypt greenPass europe QRcode.
 Just for information purpose only!
 
+---
+
 ***🇫🇷 Voici une courte démonstration vidéo de l'utilisation de l'app***
 
 ***🇬🇧 Here is a short video demonstration of how to use the app***
@@ -13,6 +15,7 @@ Just for information purpose only!
 ## 🇬🇧 click on the image to see the video!
 >[![embed url](/demo-pictures/picture1.png)](https://youtu.be/ntUTsSsKl7g)
 
+---
 
 # 🇫🇷 Comment utiliser cette app
 
