@@ -1,6 +1,8 @@
-***Voici une courte démonstration vidéo de l'utilisation de l'app***
->[![embed url](/demo-pictures/picture1.png)](https://youtu.be/ntUTsSsKl7g)
 
+***Voici une courte démonstration vidéo de l'utilisation de l'app***
+
+## cliquez sur l'image pour voir la vidéo!
+>[![embed url](/demo-pictures/picture1.png)](https://youtu.be/ntUTsSsKl7g)
 
 
 # Comment utiliser cette app
