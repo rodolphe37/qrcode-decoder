@@ -1,3 +1,9 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/rodolphe37/qrcode-decoder/blob/main/LICENSE)
+[![JavaScript](https://img.shields.io/badge/--F7DF1E?logo=javascript&logoColor=000)](https://www.javascript.com/)
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Naereen/badges/)
+<img   src="https://badges.aleen42.com/src/react.svg" alt="drawing" height="20" width="65"/>
+
+[![Website](https://i.imgur.com/xSu6S5v.png)](https://rodolphe-augusto.fr)
 
 # 🇫🇷 Application pour décrypter le QRcode du greenPass europe.
 A titre d'information seulement !
