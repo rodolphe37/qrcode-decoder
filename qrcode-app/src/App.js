@@ -1,137 +1,69 @@
-import React, { useState, useRef } from "react";
-import {
-  Container,
-  Card,
-  CardContent,
-  makeStyles,
-  Grid,
-  TextField,
-  Button,
-} from "@material-ui/core";
-import QRCode from "qrcode";
-import QrReader from "react-qr-reader";
-import { useEffect } from "react";
+import React from "react";
+import { Container, makeStyles } from "@material-ui/core";
+import Logo from "./assets/qr-code.svg";
+import PwaLogo from "./assets/pwa-pass-3.svg";
+import "./App.css";
+
+import Tabs from "./tabs/Tabs";
 
 function App() {
-  const [text, setText] = useState("");
-  const [imageUrl, setImageUrl] = useState("");
-  const [scanResultFile, setScanResultFile] = useState("");
-  const [scanResultWebCam, setScanResultWebCam] = useState("");
   const classes = useStyles();
-  const qrRef = useRef(null);
-
-  const generateQrCode = async () => {
-    try {
-      const response = await QRCode.toDataURL(text);
-      setImageUrl(response);
-    } catch (error) {
-      console.log(error);
-    }
-  };
-  const handleErrorFile = (error) => {
-    console.log(error);
-  };
-  const handleScanFile = (result) => {
-    if (result) {
-      setScanResultFile(result);
-    }
-  };
-  const onScanFile = () => {
-    qrRef.current.openImageDialog();
-  };
-  const handleErrorWebCam = (error) => {
-    console.log(error);
-  };
-  const handleScanWebCam = (result) => {
-    if (result) {
-      setScanResultWebCam(result);
-    }
-  };
-
-  useEffect(() => {
-    console.log(imageUrl);
-  }, [imageUrl]);
 
   return (
-    <Container className={classes.conatiner}>
-      <Card>
-        <h2 className={classes.title}>Generate Download & Scan QR Code</h2>
-        <CardContent>
-          <Grid container spacing={2}>
-            <Grid item xl={4} lg={4} md={6} sm={12} xs={12}>
-              <TextField
-                label="Enter Text Here"
-                onChange={(e) => setText(e.target.value)}
-              />
-              <Button
-                className={classes.btn}
-                variant="contained"
-                color="primary"
-                onClick={() => generateQrCode()}
-              >
-                Generate
-              </Button>
-              <div className="term-content"></div>
-              <br />
-              <br />
-              <br />
-              {imageUrl ? (
-                <a href={imageUrl} download="qrcode.png">
-                  <img src={imageUrl} alt="img" />
-                </a>
-              ) : null}
-            </Grid>
-            <Grid item xl={4} lg={4} md={6} sm={12} xs={12}>
-              <Button
-                className={classes.btn}
-                variant="contained"
-                color="secondary"
-                onClick={onScanFile}
-              >
-                Scan Qr Code
-              </Button>
-              <QrReader
-                ref={qrRef}
-                delay={300}
-                style={{ width: "100%" }}
-                onError={handleErrorFile}
-                onScan={handleScanFile}
-                legacyMode
-              />
-              <h3>Scanned Code: {scanResultFile}</h3>
-            </Grid>
-            <Grid item xl={4} lg={4} md={6} sm={12} xs={12}>
-              <h3>Qr Code Scan by Web Cam</h3>
-              <QrReader
-                delay={300}
-                style={{ width: "100%" }}
-                onError={handleErrorWebCam}
-                onScan={handleScanWebCam}
-              />
-              <h3>Scanned By WebCam Code: {scanResultWebCam}</h3>
-            </Grid>
-          </Grid>
-        </CardContent>
-      </Card>
-    </Container>
+    <div className={classes.Container}>
+      <div className="ribbon ribbon-top-right">
+        <span>
+          <img className="picture-ribbon" src={PwaLogo} alt="ribbon" />
+        </span>
+      </div>
+      <div className={classes.headerApp}>
+        <div className={classes.titleContainer}>
+          <img src={Logo} alt="logo" width="50" />
+          <strong className={classes.title}>QR Code tools</strong>
+        </div>
+        <sub className={classes.sub}>Generate & download or Scan & decode</sub>
+      </div>
+      <Container className={classes.conatiner}>
+        <Tabs />
+      </Container>
+    </div>
   );
 }
 
 const useStyles = makeStyles((theme) => ({
+  container: {
+    width: "100%",
+    height: "100vh",
+  },
   conatiner: {
-    marginTop: 10,
+    marginTop: "6em",
   },
   title: {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    background: "#3f51b5",
     color: "#fff",
-    padding: 20,
+    padding: 8,
+    fontSize: 22,
   },
-  btn: {
-    marginTop: 10,
-    marginBottom: 20,
+  headerApp: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    flexDirection: "column",
+    backgroundColor: "rgb(85, 4, 135)",
+    color: "#fff",
+    padding: 15,
+    width: "100%",
+    position: "fixed",
+    top: 0,
+    left: 0,
+    zIndex: 9,
+  },
+  titleContainer: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-between",
   },
 }));
 export default App;
