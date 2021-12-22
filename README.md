@@ -6,6 +6,9 @@
 
 [![Website](https://i.imgur.com/xSu6S5v.png)](https://rodolphe-augusto.fr)
 
+# link to my new article, A simple way to decode your QrCode Green pass:
+https://blog.devgenius.io/a-simple-way-to-decode-your-qrcode-green-pass-2220142012ec
+
 # 🇫🇷 Application pour décrypter le QRcode du greenPass europe.
 A titre d'information seulement !
 
